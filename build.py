@@ -32,7 +32,7 @@ def main():
         path = ROOT / name
         if not path.is_file() or path.is_symlink():
             raise ValueError(f'Invalid package input: {name}')
-        data = path.read_bytes()
+        data = path.read_bytes().replace(b'\r\n', b'\n')
         if name.endswith('.cmd'):
             data = data.replace(b'\r\n', b'\n').replace(b'\n', b'\r\n')
         contents[name] = data
