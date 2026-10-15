@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "history_started": "2026-01-01T12:00:00+00:00",
+  "capture_started": "2026-01-01T12:00:00+00:00",
+  "capture_finished": "2026-01-01T12:01:00+00:00",
+  "utc_offset": "+00:00",
+  "headset_state": "awake_streaming",
+  "system": {
+    "os": "Synthetic example"
+  },
+  "adapter_samples": [
+    {
+      "timestamp": "2026-01-01T12:00:00+00:00",
+      "status": "Disconnected"
+    },
+    {
+      "timestamp": "2026-01-01T12:01:00+00:00",
+      "status": "Up"
+    }
+  ],
+  "wlan_events": [
+    {
+      "timestamp": "2026-01-01T12:00:18+00:00",
+      "event_id": 8001,
+      "reason": "other",
+      "frame_network": true
+    }
+  ],
+  "warnings": []
+}

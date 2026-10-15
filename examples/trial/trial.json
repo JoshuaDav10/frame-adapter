@@ -1,0 +1,10 @@
+{
+  "phase_seconds": 30,
+  "same_workload": true,
+  "markers": [
+    {
+      "kind": "observation_only",
+      "timestamp": "2026-10-14T00:00:40-05:00"
+    }
+  ]
+}

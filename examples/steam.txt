@@ -1,0 +1,6 @@
+Synthetic test log; not hardware evidence.
+Thu Jan 01 2026 12:00:02.000 [Info] - Reset video stream because we had a stream reset request
+Thu Jan 01 2026 12:00:03.000 [Info] - Bad link event: d=500.0 ms 50.0 mbit/s -> 25.0 mbit/s, ping 2.0 ms, holdoff 1, auto 1
+Thu Jan 01 2026 12:00:13.000 [Info] - Reset video stream because frame ID was not what we expected
+Thu Jan 01 2026 12:00:30.000 [Info] - Link BW: Est 180.0 Mbit/s (auto: 1)
+Thu Jan 01 2026 12:00:45.000 [Info] - Bad link event: d=5.0 ms 180.0 mbit/s -> 179.0 mbit/s, ping 2.0 ms, holdoff 1, auto 1

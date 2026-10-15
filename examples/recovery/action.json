@@ -1,0 +1,15 @@
+{
+  "Success": true,
+  "RequestedOperation": "restart",
+  "Operation": "Adapter restarted.",
+  "ActionStarted": "2026-01-01T12:00:10.0000000+00:00",
+  "ActionCompleted": "2026-01-01T12:00:12.0000000+00:00",
+  "Before": {
+    "Timestamp": "2026-01-01T12:00:10+00:00",
+    "Status": "Disconnected"
+  },
+  "After": {
+    "Timestamp": "2026-01-01T12:00:18+00:00",
+    "Status": "Up"
+  }
+}
